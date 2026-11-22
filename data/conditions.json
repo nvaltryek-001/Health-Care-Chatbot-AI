@@ -1,0 +1,1315 @@
+[
+  {
+    "id": "common_cold",
+    "name": "Common Cold",
+    "aliases": [
+      "common cold",
+      "cold",
+      "head cold",
+      "jukam",
+      "zukam"
+    ],
+    "category": "Respiratory",
+    "urgency": "self-care",
+    "specialist": "General Physician",
+    "summary": "A mild viral infection of the nose and throat. It usually clears up on its own within 7–10 days.",
+    "symptoms": [
+      "runny_nose",
+      "stuffy_nose",
+      "sneezing",
+      "sore_throat",
+      "cough",
+      "low_grade_fever",
+      "headache",
+      "body_aches",
+      "fatigue"
+    ],
+    "self_care": [
+      "Rest and drink plenty of fluids (water, warm soups, herbal tea).",
+      "Gargle with warm salt water to soothe a sore throat.",
+      "Use steam inhalation or a saline nasal spray to ease congestion.",
+      "Honey in warm water can soothe a cough (not for children under 1 year)."
+    ],
+    "medicines": [
+      "Paracetamol for aches or fever — follow the dose on the label.",
+      "Saline nasal drops or spray for a blocked nose.",
+      "Antibiotics do NOT help a cold, because it is caused by a virus."
+    ],
+    "see_doctor": [
+      "Symptoms last more than 10 days or get worse after improving.",
+      "Fever above 39°C (102°F) or lasting more than 3 days.",
+      "Difficulty breathing, wheezing or chest pain.",
+      "Severe sinus pain or ear pain."
+    ],
+    "prevention": [
+      "Wash hands often with soap for at least 20 seconds.",
+      "Avoid touching your eyes, nose and mouth.",
+      "Keep away from people who are sick and cover your coughs and sneezes.",
+      "Eat a balanced diet with fruits and vegetables and sleep well."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "influenza",
+    "name": "Influenza (Flu)",
+    "aliases": [
+      "influenza",
+      "flu",
+      "the flu",
+      "seasonal flu"
+    ],
+    "category": "Respiratory",
+    "urgency": "see-doctor",
+    "specialist": "General Physician",
+    "summary": "A contagious viral infection that comes on suddenly with fever, body aches and exhaustion. Usually more severe than a cold.",
+    "symptoms": [
+      "high_fever",
+      "fever",
+      "chills",
+      "body_aches",
+      "fatigue",
+      "headache",
+      "dry_cough",
+      "sore_throat",
+      "runny_nose",
+      "loss_of_appetite"
+    ],
+    "self_care": [
+      "Rest at home and avoid contact with others until 24 hours after the fever is gone.",
+      "Drink plenty of fluids to prevent dehydration.",
+      "Keep warm and get as much sleep as you can."
+    ],
+    "medicines": [
+      "Paracetamol or ibuprofen can lower fever and ease aches — follow the label.",
+      "A doctor may prescribe antiviral medicine if started early or if you are at high risk."
+    ],
+    "see_doctor": [
+      "You are over 65, pregnant, or have a long-term condition such as diabetes, asthma or heart disease.",
+      "Shortness of breath, chest pain or confusion.",
+      "Symptoms do not improve after 7 days.",
+      "Signs of dehydration (very little urine, dizziness)."
+    ],
+    "prevention": [
+      "Get the annual flu vaccine.",
+      "Wash hands regularly and use hand sanitiser.",
+      "Stay home when sick and wear a mask in crowded places during flu season."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "covid19",
+    "name": "COVID-19",
+    "aliases": [
+      "covid",
+      "covid-19",
+      "covid 19",
+      "coronavirus",
+      "corona"
+    ],
+    "category": "Respiratory",
+    "urgency": "see-doctor",
+    "specialist": "General Physician",
+    "summary": "A respiratory illness caused by the SARS-CoV-2 virus. Severity ranges from mild cold-like symptoms to serious illness.",
+    "symptoms": [
+      "fever",
+      "dry_cough",
+      "fatigue",
+      "loss_of_smell_taste",
+      "sore_throat",
+      "shortness_of_breath",
+      "body_aches",
+      "headache",
+      "diarrhea"
+    ],
+    "self_care": [
+      "Take a COVID-19 test if available and isolate while you have symptoms.",
+      "Rest, stay hydrated and monitor your temperature.",
+      "If you have a pulse oximeter, check your oxygen level regularly."
+    ],
+    "medicines": [
+      "Paracetamol for fever and aches — follow the label.",
+      "High-risk people may be eligible for antiviral treatment; ask a doctor early."
+    ],
+    "see_doctor": [
+      "Oxygen saturation below 94% or difficulty breathing.",
+      "Persistent chest pain or pressure.",
+      "Confusion, bluish lips or inability to stay awake — seek emergency care."
+    ],
+    "prevention": [
+      "Stay up to date with recommended vaccinations.",
+      "Wear a well-fitted mask in crowded indoor spaces.",
+      "Improve ventilation and wash hands frequently."
+    ],
+    "prevalence": "moderate"
+  },
+  {
+    "id": "viral_fever",
+    "name": "Viral Fever",
+    "aliases": [
+      "viral fever",
+      "fever",
+      "viral infection"
+    ],
+    "category": "General",
+    "urgency": "self-care",
+    "specialist": "General Physician",
+    "summary": "A raised body temperature caused by a viral infection. Most viral fevers settle within 3–5 days with rest.",
+    "symptoms": [
+      "fever",
+      "chills",
+      "sweating",
+      "body_aches",
+      "headache",
+      "fatigue",
+      "loss_of_appetite",
+      "dehydration_signs"
+    ],
+    "self_care": [
+      "Rest and drink plenty of fluids — water, ORS, coconut water, soups.",
+      "Wear light clothing and sponge with lukewarm (not cold) water.",
+      "Eat light, easily digestible food."
+    ],
+    "medicines": [
+      "Paracetamol to bring down fever — follow the label and do not exceed the maximum daily dose.",
+      "Avoid giving aspirin to children and teenagers."
+    ],
+    "see_doctor": [
+      "Fever lasts more than 3 days or is above 39.4°C (103°F).",
+      "Rash, severe headache, stiff neck or sensitivity to light.",
+      "Bleeding from gums or nose, or severe abdominal pain (possible dengue).",
+      "Confusion, seizures or difficulty breathing."
+    ],
+    "prevention": [
+      "Wash hands regularly and maintain good hygiene.",
+      "Drink clean, safe water.",
+      "Avoid close contact with people who are ill."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "dengue",
+    "name": "Dengue Fever",
+    "aliases": [
+      "dengue",
+      "dengue fever",
+      "breakbone fever"
+    ],
+    "category": "Infectious",
+    "urgency": "see-doctor",
+    "specialist": "General Physician",
+    "summary": "A mosquito-borne viral infection common in tropical regions, causing high fever and severe body and joint pain.",
+    "symptoms": [
+      "high_fever",
+      "fever",
+      "headache",
+      "pain_behind_eyes",
+      "joint_pain",
+      "body_aches",
+      "rash",
+      "nausea",
+      "vomiting",
+      "fatigue",
+      "bleeding_gums"
+    ],
+    "self_care": [
+      "Rest and drink lots of fluids — ORS, water, coconut water, juices.",
+      "Monitor how much you drink and urinate."
+    ],
+    "medicines": [
+      "Paracetamol for fever and pain — follow the label.",
+      "Do NOT take ibuprofen, aspirin or other NSAIDs, as they can increase bleeding risk."
+    ],
+    "see_doctor": [
+      "See a doctor for a blood test (platelet count) if you suspect dengue.",
+      "Severe abdominal pain, persistent vomiting, bleeding gums or nose, or blood in vomit/stool — go to hospital immediately.",
+      "Restlessness, extreme tiredness or cold clammy skin."
+    ],
+    "prevention": [
+      "Use mosquito repellent and wear long sleeves.",
+      "Remove standing water around your home (coolers, pots, tyres).",
+      "Use mosquito nets and window screens."
+    ],
+    "prevalence": "moderate"
+  },
+  {
+    "id": "malaria",
+    "name": "Malaria",
+    "aliases": [
+      "malaria"
+    ],
+    "category": "Infectious",
+    "urgency": "see-doctor",
+    "specialist": "General Physician",
+    "summary": "A serious mosquito-borne parasitic infection causing cycles of fever, chills and sweating. It needs prompt testing and treatment.",
+    "symptoms": [
+      "high_fever",
+      "fever",
+      "chills",
+      "sweating",
+      "headache",
+      "body_aches",
+      "nausea",
+      "vomiting",
+      "fatigue"
+    ],
+    "self_care": [
+      "Get a blood test as soon as possible — malaria needs prescription treatment.",
+      "Rest and stay well hydrated."
+    ],
+    "medicines": [
+      "Malaria is treated with prescription antimalarial medicines chosen by a doctor based on the test result.",
+      "Paracetamol can help with fever while you arrange a test."
+    ],
+    "see_doctor": [
+      "Any fever with chills after being in a malaria area — get tested the same day.",
+      "Confusion, drowsiness, seizures, yellow eyes or dark urine — emergency."
+    ],
+    "prevention": [
+      "Sleep under insecticide-treated mosquito nets.",
+      "Use repellent and cover arms and legs at dusk and dawn.",
+      "Ask a doctor about preventive medicine before travelling to high-risk areas."
+    ],
+    "prevalence": "moderate"
+  },
+  {
+    "id": "typhoid",
+    "name": "Typhoid Fever",
+    "aliases": [
+      "typhoid",
+      "typhoid fever",
+      "enteric fever"
+    ],
+    "category": "Infectious",
+    "urgency": "see-doctor",
+    "specialist": "General Physician",
+    "summary": "A bacterial infection spread through contaminated food and water, with a fever that rises gradually over several days.",
+    "symptoms": [
+      "fever",
+      "high_fever",
+      "headache",
+      "abdominal_pain",
+      "fatigue",
+      "loss_of_appetite",
+      "constipation",
+      "diarrhea",
+      "rash"
+    ],
+    "self_care": [
+      "See a doctor for diagnosis — typhoid needs antibiotics.",
+      "Drink plenty of safe fluids and eat soft, light meals."
+    ],
+    "medicines": [
+      "Typhoid is treated with prescription antibiotics; complete the full course.",
+      "Paracetamol can help with fever."
+    ],
+    "see_doctor": [
+      "Fever lasting more than 3 days, especially after eating outside or drinking unsafe water.",
+      "Severe abdominal pain, blood in stool or confusion — emergency."
+    ],
+    "prevention": [
+      "Drink boiled or bottled water.",
+      "Eat freshly cooked hot food and avoid raw street food.",
+      "Wash hands before eating and after using the toilet.",
+      "Typhoid vaccines are available — ask your doctor."
+    ],
+    "prevalence": "moderate"
+  },
+  {
+    "id": "gastroenteritis",
+    "name": "Gastroenteritis (Stomach Flu / Food Poisoning)",
+    "aliases": [
+      "gastroenteritis",
+      "stomach flu",
+      "food poisoning",
+      "stomach infection",
+      "stomach bug",
+      "loose motions"
+    ],
+    "category": "Digestive",
+    "urgency": "self-care",
+    "specialist": "Gastroenterologist",
+    "summary": "Inflammation of the stomach and intestines, usually from a virus or contaminated food. Most people recover in 1–3 days.",
+    "symptoms": [
+      "diarrhea",
+      "vomiting",
+      "nausea",
+      "abdominal_pain",
+      "low_grade_fever",
+      "fever",
+      "dehydration_signs",
+      "loss_of_appetite",
+      "fatigue"
+    ],
+    "self_care": [
+      "Sip ORS (oral rehydration solution) frequently to replace lost fluids and salts.",
+      "Eat bland foods once you can — rice, bananas, toast, curd.",
+      "Avoid dairy, fried, spicy food, caffeine and alcohol until you recover."
+    ],
+    "medicines": [
+      "ORS is the most important treatment.",
+      "Zinc supplements are recommended for children with diarrhoea — ask a pharmacist.",
+      "Avoid anti-diarrhoea medicine if you have blood in stool or high fever."
+    ],
+    "see_doctor": [
+      "Cannot keep fluids down for more than 24 hours.",
+      "Blood in vomit or stool, or severe abdominal pain.",
+      "Signs of dehydration: very little urine, dizziness, dry mouth.",
+      "Diarrhoea lasting more than 3 days (or 24 hours in infants)."
+    ],
+    "prevention": [
+      "Wash hands with soap after using the toilet and before eating.",
+      "Drink safe water and eat food that is freshly cooked.",
+      "Store food properly and wash fruits and vegetables."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "acid_reflux",
+    "name": "Acid Reflux (GERD)",
+    "aliases": [
+      "acid reflux",
+      "gerd",
+      "acidity",
+      "heartburn",
+      "reflux",
+      "gastritis"
+    ],
+    "category": "Digestive",
+    "urgency": "self-care",
+    "specialist": "Gastroenterologist",
+    "summary": "Stomach acid flowing back into the food pipe, causing a burning feeling in the chest, especially after meals or when lying down.",
+    "symptoms": [
+      "heartburn",
+      "regurgitation",
+      "bloating",
+      "nausea",
+      "abdominal_pain",
+      "sore_throat",
+      "dry_cough"
+    ],
+    "self_care": [
+      "Eat smaller meals and avoid lying down for 3 hours after eating.",
+      "Raise the head of your bed by 15–20 cm.",
+      "Cut down on spicy, fried and fatty food, coffee, chocolate and alcohol.",
+      "Stop smoking and keep a healthy weight."
+    ],
+    "medicines": [
+      "Antacids from a pharmacy can relieve occasional heartburn — follow the label.",
+      "If you need antacids often, a doctor can advise on longer-term options."
+    ],
+    "see_doctor": [
+      "Heartburn more than twice a week or not helped by antacids.",
+      "Difficulty swallowing, vomiting blood or black stools.",
+      "Unexplained weight loss.",
+      "Chest pain with sweating or breathlessness may be a heart problem — seek emergency care."
+    ],
+    "prevention": [
+      "Maintain a healthy weight.",
+      "Avoid trigger foods and late-night meals.",
+      "Avoid tight clothing around the waist."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "migraine",
+    "name": "Migraine",
+    "aliases": [
+      "migraine",
+      "migraines"
+    ],
+    "category": "Neurological",
+    "urgency": "self-care",
+    "specialist": "Neurologist",
+    "summary": "A moderate to severe throbbing headache, often on one side, sometimes with nausea and sensitivity to light or sound.",
+    "symptoms": [
+      "throbbing_headache",
+      "headache",
+      "light_sensitivity",
+      "nausea",
+      "vomiting",
+      "aura",
+      "dizziness",
+      "blurred_vision"
+    ],
+    "self_care": [
+      "Rest in a quiet, dark room.",
+      "Apply a cold pack to the forehead or back of the neck.",
+      "Keep a headache diary to spot triggers (sleep, stress, certain foods, skipped meals)."
+    ],
+    "medicines": [
+      "Paracetamol or ibuprofen taken early in an attack can help — follow the label.",
+      "Frequent migraines can be treated with prescription medicines; see a doctor."
+    ],
+    "see_doctor": [
+      "Headaches are getting more frequent or severe.",
+      "Pain-relief medicines are needed more than 2–3 days a week.",
+      "Sudden, severe 'worst ever' headache, or headache with weakness, confusion, slurred speech or stiff neck — emergency."
+    ],
+    "prevention": [
+      "Keep a regular sleep and meal schedule.",
+      "Stay hydrated and limit caffeine and alcohol.",
+      "Manage stress with exercise, yoga or relaxation techniques."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "tension_headache",
+    "name": "Tension Headache",
+    "aliases": [
+      "tension headache",
+      "stress headache"
+    ],
+    "category": "Neurological",
+    "urgency": "self-care",
+    "specialist": "General Physician",
+    "summary": "The most common type of headache — a dull, tight pressure like a band around the head, often linked to stress, posture or screen time.",
+    "symptoms": [
+      "headache",
+      "pressing_headache",
+      "neck_pain",
+      "stiffness",
+      "fatigue",
+      "poor_concentration",
+      "irritability"
+    ],
+    "self_care": [
+      "Take regular breaks from screens and check your posture.",
+      "Gently massage your neck and shoulders, or apply warmth.",
+      "Drink enough water and get regular sleep.",
+      "Try relaxation, stretching or a short walk."
+    ],
+    "medicines": [
+      "Paracetamol or ibuprofen can relieve occasional headaches — follow the label.",
+      "Avoid taking painkillers more than 2–3 days a week, as this can cause rebound headaches."
+    ],
+    "see_doctor": [
+      "Headaches happen most days or interfere with daily life.",
+      "Headache after a head injury.",
+      "Headache with fever, stiff neck, rash, confusion or vision loss — seek urgent care."
+    ],
+    "prevention": [
+      "Manage stress and take screen breaks (20-20-20 rule).",
+      "Exercise regularly.",
+      "Keep good posture at your desk."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "sinusitis",
+    "name": "Sinusitis",
+    "aliases": [
+      "sinusitis",
+      "sinus infection",
+      "sinus"
+    ],
+    "category": "Respiratory",
+    "urgency": "self-care",
+    "specialist": "ENT Specialist",
+    "summary": "Swelling of the sinuses, usually after a cold, causing facial pain, a blocked nose and thick nasal discharge.",
+    "symptoms": [
+      "facial_pain",
+      "stuffy_nose",
+      "runny_nose",
+      "headache",
+      "loss_of_smell_taste",
+      "cough",
+      "low_grade_fever",
+      "fatigue"
+    ],
+    "self_care": [
+      "Steam inhalation and saline nasal rinses can clear mucus.",
+      "Apply a warm compress over the face.",
+      "Rest and stay hydrated."
+    ],
+    "medicines": [
+      "Paracetamol or ibuprofen for pain — follow the label.",
+      "Decongestant sprays should not be used for more than a few days."
+    ],
+    "see_doctor": [
+      "Symptoms last more than 10 days or keep coming back.",
+      "Severe pain, swelling around the eyes, or vision changes — seek urgent care.",
+      "High fever or confusion."
+    ],
+    "prevention": [
+      "Treat colds and allergies early.",
+      "Avoid smoke and other irritants.",
+      "Use a humidifier in dry weather."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "allergic_rhinitis",
+    "name": "Allergic Rhinitis (Hay Fever)",
+    "aliases": [
+      "allergic rhinitis",
+      "hay fever",
+      "allergy",
+      "allergies",
+      "dust allergy",
+      "pollen allergy"
+    ],
+    "category": "Respiratory",
+    "urgency": "self-care",
+    "specialist": "ENT Specialist / Allergist",
+    "summary": "An allergic reaction to things like dust, pollen or pet dander, causing sneezing, an itchy runny nose and watery eyes — without fever.",
+    "symptoms": [
+      "sneezing",
+      "runny_nose",
+      "stuffy_nose",
+      "itchy_eyes",
+      "itching",
+      "cough",
+      "fatigue"
+    ],
+    "self_care": [
+      "Identify and avoid triggers such as dust, pollen, mould or pets.",
+      "Rinse your nose with saline solution.",
+      "Keep windows closed on high-pollen days and wash bedding weekly in hot water."
+    ],
+    "medicines": [
+      "Non-drowsy antihistamines from a pharmacy can relieve symptoms — follow the label.",
+      "A doctor may recommend a steroid nasal spray for frequent symptoms."
+    ],
+    "see_doctor": [
+      "Symptoms affect sleep, work or study.",
+      "Wheezing or shortness of breath.",
+      "Over-the-counter remedies are not helping."
+    ],
+    "prevention": [
+      "Use dust-mite-proof pillow and mattress covers.",
+      "Vacuum and dust regularly (with a mask if sensitive).",
+      "Shower and change clothes after being outdoors on high-pollen days."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "strep_throat",
+    "name": "Pharyngitis / Strep Throat",
+    "aliases": [
+      "strep throat",
+      "pharyngitis",
+      "tonsillitis",
+      "throat infection"
+    ],
+    "category": "Respiratory",
+    "urgency": "see-doctor",
+    "specialist": "ENT Specialist",
+    "summary": "Infection of the throat or tonsils. A bacterial (strep) infection usually comes with fever and swollen glands and no cough.",
+    "symptoms": [
+      "sore_throat",
+      "painful_swallowing",
+      "fever",
+      "swollen_glands",
+      "headache",
+      "body_aches",
+      "fatigue"
+    ],
+    "self_care": [
+      "Gargle with warm salt water several times a day.",
+      "Drink warm liquids and eat soft foods.",
+      "Rest your voice."
+    ],
+    "medicines": [
+      "Paracetamol or ibuprofen for pain and fever — follow the label.",
+      "Strep throat needs antibiotics prescribed by a doctor; viral sore throats do not."
+    ],
+    "see_doctor": [
+      "Sore throat with fever and swollen glands but no cough.",
+      "Symptoms last more than a week.",
+      "Difficulty breathing, drooling, or unable to swallow fluids — seek urgent care."
+    ],
+    "prevention": [
+      "Wash hands often.",
+      "Don't share cups, utensils or toothbrushes.",
+      "Replace your toothbrush after an infection."
+    ],
+    "prevalence": "moderate"
+  },
+  {
+    "id": "bronchitis",
+    "name": "Acute Bronchitis",
+    "aliases": [
+      "bronchitis",
+      "chest infection",
+      "chest cold"
+    ],
+    "category": "Respiratory",
+    "urgency": "self-care",
+    "specialist": "Pulmonologist",
+    "summary": "Inflammation of the airways in the lungs, usually after a cold, causing a cough with mucus that can last up to 3 weeks.",
+    "symptoms": [
+      "wet_cough",
+      "cough",
+      "chest_tightness",
+      "wheezing",
+      "fatigue",
+      "sore_throat",
+      "low_grade_fever",
+      "shortness_of_breath"
+    ],
+    "self_care": [
+      "Rest and drink plenty of fluids to loosen mucus.",
+      "Use steam inhalation or a humidifier.",
+      "Avoid smoking and smoky environments."
+    ],
+    "medicines": [
+      "Paracetamol for fever or chest discomfort — follow the label.",
+      "Honey in warm water can soothe a cough (not for children under 1).",
+      "Antibiotics are usually not needed for viral bronchitis."
+    ],
+    "see_doctor": [
+      "Cough lasts more than 3 weeks.",
+      "High fever, coughing up blood, or chest pain.",
+      "Shortness of breath that is getting worse."
+    ],
+    "prevention": [
+      "Don't smoke and avoid second-hand smoke.",
+      "Get vaccinated against flu.",
+      "Wash hands frequently."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "asthma",
+    "name": "Asthma",
+    "aliases": [
+      "asthma",
+      "asthma attack",
+      "bronchial asthma"
+    ],
+    "category": "Respiratory",
+    "urgency": "see-doctor",
+    "specialist": "Pulmonologist",
+    "summary": "A long-term condition where the airways narrow and swell, causing wheezing, breathlessness and chest tightness, often triggered by allergens, exercise or cold air.",
+    "symptoms": [
+      "wheezing",
+      "shortness_of_breath",
+      "chest_tightness",
+      "dry_cough",
+      "cough",
+      "fatigue"
+    ],
+    "self_care": [
+      "Follow your personal asthma action plan if you have one.",
+      "Identify and avoid triggers (dust, smoke, pollen, cold air, pets).",
+      "Sit upright and breathe slowly during symptoms."
+    ],
+    "medicines": [
+      "Asthma is managed with inhalers prescribed by a doctor (reliever and preventer).",
+      "Carry your reliever inhaler with you at all times if you have one."
+    ],
+    "see_doctor": [
+      "See a doctor for diagnosis if you have recurring wheezing or breathlessness.",
+      "Reliever inhaler isn't helping, lips turn blue, or you can't speak in full sentences — call emergency services (112) immediately."
+    ],
+    "prevention": [
+      "Take preventer medicines as prescribed, even when well.",
+      "Keep your home free of dust and smoke.",
+      "Get the annual flu vaccine."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "diabetes",
+    "name": "Type 2 Diabetes",
+    "aliases": [
+      "diabetes",
+      "type 2 diabetes",
+      "type 1 diabetes",
+      "sugar",
+      "high sugar",
+      "high blood sugar",
+      "blood sugar"
+    ],
+    "category": "Metabolic",
+    "urgency": "see-doctor",
+    "specialist": "Endocrinologist / Diabetologist",
+    "summary": "A long-term condition where blood sugar is too high because the body doesn't make or use insulin properly. Early diagnosis prevents complications.",
+    "symptoms": [
+      "increased_thirst",
+      "frequent_urination",
+      "increased_hunger",
+      "fatigue",
+      "blurred_vision",
+      "weight_loss",
+      "slow_healing",
+      "tingling"
+    ],
+    "self_care": [
+      "Get a blood sugar test (fasting glucose or HbA1c) to confirm.",
+      "Choose whole grains, vegetables and lean protein; cut down on sugar and refined carbs.",
+      "Aim for at least 150 minutes of moderate activity a week."
+    ],
+    "medicines": [
+      "Diabetes treatment (tablets or insulin) must be prescribed and monitored by a doctor.",
+      "Never start, stop or change diabetes medicine without medical advice."
+    ],
+    "see_doctor": [
+      "You have several of these symptoms — get tested soon.",
+      "Very high or very low sugar readings, vomiting, confusion or fruity-smelling breath — emergency."
+    ],
+    "prevention": [
+      "Keep a healthy weight and stay physically active.",
+      "Limit sugary drinks, sweets and processed foods.",
+      "Get regular check-ups if diabetes runs in your family."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "hypertension",
+    "name": "High Blood Pressure (Hypertension)",
+    "aliases": [
+      "hypertension",
+      "high blood pressure",
+      "high bp",
+      "blood pressure",
+      "bp"
+    ],
+    "category": "Cardiovascular",
+    "urgency": "see-doctor",
+    "specialist": "Cardiologist / General Physician",
+    "summary": "Blood pressure consistently at or above 130/80 mmHg. It often has no symptoms, which is why it is called the 'silent killer'.",
+    "symptoms": [
+      "high_bp_reading",
+      "headache",
+      "morning_headache",
+      "dizziness",
+      "blurred_vision",
+      "palpitations",
+      "bleeding_gums",
+      "fatigue"
+    ],
+    "self_care": [
+      "Check your blood pressure regularly and keep a record.",
+      "Reduce salt to less than 5 g (1 teaspoon) a day.",
+      "Exercise regularly, keep a healthy weight, and limit alcohol.",
+      "Stop smoking and manage stress."
+    ],
+    "medicines": [
+      "Blood pressure medicines must be prescribed by a doctor and taken every day as directed."
+    ],
+    "see_doctor": [
+      "Readings repeatedly above 130/80 mmHg.",
+      "Reading above 180/120 with chest pain, breathlessness, weakness, vision changes or severe headache — emergency."
+    ],
+    "prevention": [
+      "Eat a diet rich in fruits, vegetables and whole grains (DASH diet).",
+      "Limit salt, processed food and alcohol.",
+      "Stay active and maintain a healthy weight."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "heart_disease",
+    "name": "Coronary Heart Disease / Angina",
+    "aliases": [
+      "heart disease",
+      "heart attack",
+      "angina",
+      "coronary artery disease",
+      "heart problem",
+      "cad"
+    ],
+    "category": "Cardiovascular",
+    "urgency": "urgent",
+    "specialist": "Cardiologist",
+    "summary": "Narrowing of the arteries that supply the heart, which can cause chest pain (angina) and lead to heart attacks. Try the Heart Risk check in this app.",
+    "symptoms": [
+      "chest_pain",
+      "chest_tightness",
+      "arm_jaw_pain",
+      "shortness_of_breath",
+      "sweating",
+      "nausea",
+      "fatigue",
+      "palpitations",
+      "dizziness",
+      "swelling_legs"
+    ],
+    "self_care": [
+      "If you have chest pain right now, stop all activity and call emergency services (112).",
+      "Long-term: eat a heart-healthy diet, exercise, stop smoking and control BP, sugar and cholesterol."
+    ],
+    "medicines": [
+      "Heart medicines must be prescribed by a cardiologist.",
+      "During a suspected heart attack, emergency services may advise chewing aspirin if you are not allergic — follow their instructions."
+    ],
+    "see_doctor": [
+      "Chest pain or pressure lasting more than a few minutes, especially with sweating, breathlessness or pain spreading to the arm or jaw — call 112 now.",
+      "Chest discomfort on exertion that goes away with rest — see a cardiologist soon."
+    ],
+    "prevention": [
+      "Don't smoke.",
+      "Exercise at least 30 minutes on most days.",
+      "Eat more fruits, vegetables and whole grains; limit saturated fats and salt.",
+      "Check blood pressure, sugar and cholesterol regularly."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "anemia",
+    "name": "Iron-Deficiency Anaemia",
+    "aliases": [
+      "anemia",
+      "anaemia",
+      "low hemoglobin",
+      "low haemoglobin",
+      "iron deficiency",
+      "low iron"
+    ],
+    "category": "Blood",
+    "urgency": "see-doctor",
+    "specialist": "General Physician",
+    "summary": "A low level of healthy red blood cells, often due to lack of iron, which makes you feel tired and short of breath.",
+    "symptoms": [
+      "fatigue",
+      "pale_skin",
+      "dizziness",
+      "shortness_of_breath",
+      "palpitations",
+      "cold_hands_feet",
+      "headache",
+      "dry_skin"
+    ],
+    "self_care": [
+      "Get a blood test (haemoglobin and iron levels) to confirm.",
+      "Eat iron-rich foods: green leafy vegetables, lentils, beans, jaggery, eggs, meat.",
+      "Have vitamin C (citrus fruit) with meals to improve iron absorption; avoid tea or coffee with meals."
+    ],
+    "medicines": [
+      "Iron supplements should be taken only after a doctor confirms anaemia — follow their dosage."
+    ],
+    "see_doctor": [
+      "Persistent tiredness, breathlessness or paleness.",
+      "Heavy menstrual periods or blood in stool.",
+      "Chest pain or fainting — seek urgent care."
+    ],
+    "prevention": [
+      "Eat a balanced, iron-rich diet.",
+      "Treat heavy periods or worm infections.",
+      "Pregnant women should follow their doctor's advice on supplements."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "hypothyroidism",
+    "name": "Hypothyroidism (Underactive Thyroid)",
+    "aliases": [
+      "hypothyroidism",
+      "thyroid",
+      "underactive thyroid",
+      "low thyroid"
+    ],
+    "category": "Hormonal",
+    "urgency": "see-doctor",
+    "specialist": "Endocrinologist",
+    "summary": "The thyroid gland does not produce enough hormone, slowing the body's metabolism. It is easily diagnosed with a blood test.",
+    "symptoms": [
+      "fatigue",
+      "weight_gain",
+      "cold_hands_feet",
+      "dry_skin",
+      "constipation",
+      "sadness",
+      "poor_concentration",
+      "body_aches"
+    ],
+    "self_care": [
+      "Ask your doctor for a thyroid function test (TSH).",
+      "Eat a balanced diet and use iodised salt."
+    ],
+    "medicines": [
+      "Thyroid hormone replacement is prescribed by a doctor and dosed using regular blood tests."
+    ],
+    "see_doctor": [
+      "Several of these symptoms for weeks — get a TSH test.",
+      "Pregnant or planning pregnancy with thyroid symptoms."
+    ],
+    "prevention": [
+      "Use iodised salt.",
+      "Get regular thyroid check-ups if it runs in your family."
+    ],
+    "prevalence": "moderate"
+  },
+  {
+    "id": "uti",
+    "name": "Urinary Tract Infection (UTI)",
+    "aliases": [
+      "uti",
+      "urinary tract infection",
+      "urine infection",
+      "bladder infection",
+      "cystitis"
+    ],
+    "category": "Urinary",
+    "urgency": "see-doctor",
+    "specialist": "Urologist / General Physician",
+    "summary": "A bacterial infection of the bladder or urinary tract causing burning while urinating and a frequent urge to go.",
+    "symptoms": [
+      "painful_urination",
+      "frequent_urination",
+      "cloudy_urine",
+      "pelvic_pain",
+      "low_grade_fever",
+      "fatigue"
+    ],
+    "self_care": [
+      "Drink plenty of water to help flush out bacteria.",
+      "Don't hold in urine — go when you need to.",
+      "A warm pad on the lower abdomen can ease discomfort."
+    ],
+    "medicines": [
+      "UTIs usually need antibiotics prescribed by a doctor — complete the full course.",
+      "Paracetamol can relieve pain."
+    ],
+    "see_doctor": [
+      "See a doctor if you have UTI symptoms — especially if pregnant, male, or symptoms recur.",
+      "Fever, back or side pain, or vomiting may mean a kidney infection — seek care the same day."
+    ],
+    "prevention": [
+      "Drink enough water daily.",
+      "Wipe from front to back after using the toilet.",
+      "Urinate after sexual intercourse.",
+      "Avoid scented products in the genital area."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "depression",
+    "name": "Depression",
+    "aliases": [
+      "depression",
+      "depressed",
+      "clinical depression",
+      "major depression"
+    ],
+    "category": "Mental Health",
+    "urgency": "see-doctor",
+    "specialist": "Psychiatrist / Psychologist",
+    "summary": "A common, treatable mental health condition with persistent low mood or loss of interest lasting two weeks or more. You are not alone, and help works.",
+    "symptoms": [
+      "sadness",
+      "loss_of_interest",
+      "fatigue",
+      "sleep_problems",
+      "poor_concentration",
+      "loss_of_appetite",
+      "weight_loss",
+      "irritability"
+    ],
+    "self_care": [
+      "Talk to someone you trust about how you feel.",
+      "Keep a simple routine: regular sleep, meals, and some daily movement or sunlight.",
+      "Set small, achievable goals and be kind to yourself.",
+      "Limit alcohol and avoid recreational drugs."
+    ],
+    "medicines": [
+      "Talking therapies (like CBT) and/or prescribed medicines are effective — a doctor or psychiatrist can advise what suits you.",
+      "Never start or stop antidepressants without medical guidance."
+    ],
+    "see_doctor": [
+      "Low mood lasting more than 2 weeks or affecting daily life.",
+      "If you have thoughts of harming yourself, please reach out now: Tele-MANAS 14416 (India, 24×7, free) or emergency 112."
+    ],
+    "prevention": [
+      "Stay connected with friends and family.",
+      "Exercise regularly and get enough sleep.",
+      "Seek help early when stress builds up."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "anxiety",
+    "name": "Anxiety Disorder",
+    "aliases": [
+      "anxiety",
+      "anxiety disorder",
+      "panic attack",
+      "panic attacks",
+      "stress"
+    ],
+    "category": "Mental Health",
+    "urgency": "self-care",
+    "specialist": "Psychiatrist / Psychologist",
+    "summary": "Ongoing, excessive worry that is hard to control, often with physical symptoms like a racing heart, restlessness and poor sleep.",
+    "symptoms": [
+      "worry",
+      "palpitations",
+      "sleep_problems",
+      "irritability",
+      "poor_concentration",
+      "fatigue",
+      "sweating",
+      "dizziness",
+      "shortness_of_breath"
+    ],
+    "self_care": [
+      "Try slow breathing: breathe in for 4 seconds, hold for 4, out for 6.",
+      "Exercise regularly and reduce caffeine.",
+      "Write down worries and break problems into small steps.",
+      "Try mindfulness, yoga or meditation apps."
+    ],
+    "medicines": [
+      "Talking therapy (CBT) is very effective; a doctor may also suggest medicine.",
+      "Avoid self-medicating with alcohol or sleeping pills."
+    ],
+    "see_doctor": [
+      "Anxiety interferes with work, study or relationships.",
+      "Frequent panic attacks.",
+      "Chest pain with breathlessness should be checked urgently to rule out heart problems."
+    ],
+    "prevention": [
+      "Keep a regular sleep schedule.",
+      "Limit caffeine, alcohol and screen time before bed.",
+      "Talk about your feelings early."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "insomnia",
+    "name": "Insomnia",
+    "aliases": [
+      "insomnia",
+      "sleeplessness",
+      "sleep disorder"
+    ],
+    "category": "Mental Health",
+    "urgency": "self-care",
+    "specialist": "General Physician / Sleep Specialist",
+    "summary": "Regular difficulty falling asleep, staying asleep or waking too early, leaving you tired during the day.",
+    "symptoms": [
+      "sleep_problems",
+      "fatigue",
+      "irritability",
+      "poor_concentration",
+      "worry",
+      "headache"
+    ],
+    "self_care": [
+      "Go to bed and wake up at the same time every day.",
+      "Avoid screens for an hour before bed and keep the bedroom dark and cool.",
+      "Avoid caffeine after 2 pm, heavy meals and alcohol at night.",
+      "If you can't sleep after 20 minutes, get up and do something relaxing."
+    ],
+    "medicines": [
+      "Sleeping pills should only be used short-term under medical advice.",
+      "CBT for insomnia (CBT-I) is the most effective long-term treatment."
+    ],
+    "see_doctor": [
+      "Poor sleep for more than 3 weeks affecting daily life.",
+      "Loud snoring with gasping or pauses in breathing (possible sleep apnoea)."
+    ],
+    "prevention": [
+      "Keep a consistent sleep routine.",
+      "Get daylight and exercise during the day.",
+      "Manage stress."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "conjunctivitis",
+    "name": "Conjunctivitis (Pink Eye)",
+    "aliases": [
+      "conjunctivitis",
+      "pink eye",
+      "eye flu",
+      "eye infection"
+    ],
+    "category": "Eye",
+    "urgency": "self-care",
+    "specialist": "Ophthalmologist",
+    "summary": "Inflammation of the thin layer covering the eye, causing redness, itching and discharge. Often viral and contagious.",
+    "symptoms": [
+      "red_eyes",
+      "eye_discharge",
+      "itchy_eyes",
+      "itching",
+      "light_sensitivity",
+      "runny_nose"
+    ],
+    "self_care": [
+      "Clean eyelids gently with cooled boiled water and a clean cotton pad.",
+      "Don't rub your eyes; wash hands often.",
+      "Don't share towels or pillows; avoid contact lenses until better."
+    ],
+    "medicines": [
+      "Lubricating eye drops can soothe irritation.",
+      "Antibiotic or anti-allergy drops should be used only if a doctor or pharmacist advises."
+    ],
+    "see_doctor": [
+      "Eye pain, sensitivity to light or blurred vision.",
+      "Symptoms in a newborn baby.",
+      "No improvement after 1 week."
+    ],
+    "prevention": [
+      "Wash hands frequently and avoid touching your eyes.",
+      "Don't share eye makeup, towels or eye drops."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "acne",
+    "name": "Acne",
+    "aliases": [
+      "acne",
+      "pimples",
+      "blackheads",
+      "acne vulgaris"
+    ],
+    "category": "Skin",
+    "urgency": "self-care",
+    "specialist": "Dermatologist",
+    "summary": "A common skin condition where hair follicles get blocked with oil and dead skin, causing pimples, blackheads and whiteheads.",
+    "symptoms": [
+      "pimples",
+      "oily_skin",
+      "rash",
+      "itching"
+    ],
+    "self_care": [
+      "Wash your face twice a day with a mild cleanser and lukewarm water — no more.",
+      "Don't squeeze or pick spots; this can cause scarring.",
+      "Use oil-free, 'non-comedogenic' moisturiser and makeup; remove makeup before bed.",
+      "Wash your hair regularly and keep it off your face."
+    ],
+    "medicines": [
+      "Pharmacy creams with benzoyl peroxide or adapalene can help mild acne — follow the label.",
+      "Moderate or severe acne may need prescription treatment from a dermatologist."
+    ],
+    "see_doctor": [
+      "Acne is painful, leaving scars, or not improving after 2–3 months.",
+      "Acne is affecting your confidence or mood."
+    ],
+    "prevention": [
+      "Keep a gentle skincare routine.",
+      "Change pillowcases regularly.",
+      "Shower after sweating."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "chickenpox",
+    "name": "Chickenpox",
+    "aliases": [
+      "chickenpox",
+      "chicken pox",
+      "varicella"
+    ],
+    "category": "Infectious",
+    "urgency": "self-care",
+    "specialist": "General Physician / Paediatrician",
+    "summary": "A highly contagious viral infection that causes an itchy rash of fluid-filled blisters, mostly in children.",
+    "symptoms": [
+      "blisters",
+      "rash",
+      "itching",
+      "fever",
+      "fatigue",
+      "loss_of_appetite",
+      "headache"
+    ],
+    "self_care": [
+      "Stay home until all blisters have crusted over (usually 5 days after the rash appears).",
+      "Trim nails and avoid scratching; calamine lotion and cool baths can soothe itching.",
+      "Drink plenty of fluids."
+    ],
+    "medicines": [
+      "Paracetamol for fever — do NOT use ibuprofen or aspirin with chickenpox.",
+      "A doctor may prescribe antivirals for adults, pregnant women or people with weak immunity."
+    ],
+    "see_doctor": [
+      "You are pregnant, an adult, or have a weakened immune system.",
+      "Blisters become red, hot or painful (infection).",
+      "Difficulty breathing, severe headache, confusion or stiff neck — emergency."
+    ],
+    "prevention": [
+      "The chickenpox (varicella) vaccine is safe and effective.",
+      "Avoid contact with infected people until their blisters crust over."
+    ],
+    "prevalence": "moderate"
+  },
+  {
+    "id": "back_pain",
+    "name": "Lower Back Pain",
+    "aliases": [
+      "back pain",
+      "lower back pain",
+      "backache",
+      "sciatica"
+    ],
+    "category": "Musculoskeletal",
+    "urgency": "self-care",
+    "specialist": "Orthopaedic / Physiotherapist",
+    "summary": "Very common pain in the lower back, usually from muscle strain or posture. Most cases get better within a few weeks.",
+    "symptoms": [
+      "back_pain",
+      "stiffness",
+      "leg_pain",
+      "tingling",
+      "body_aches"
+    ],
+    "self_care": [
+      "Keep moving gently — bed rest slows recovery.",
+      "Use heat or cold packs for 15–20 minutes at a time.",
+      "Do gentle stretches and check your sitting posture.",
+      "Lift with your knees, not your back."
+    ],
+    "medicines": [
+      "Paracetamol or ibuprofen for short-term pain relief — follow the label."
+    ],
+    "see_doctor": [
+      "Pain lasts more than 6 weeks or keeps getting worse.",
+      "Numbness around the groin/buttocks, loss of bladder or bowel control, or weakness in the legs — emergency.",
+      "Back pain with fever, weight loss or after a fall/injury."
+    ],
+    "prevention": [
+      "Exercise regularly to strengthen core and back muscles.",
+      "Keep a healthy weight.",
+      "Take breaks from long periods of sitting."
+    ],
+    "prevalence": "common"
+  },
+  {
+    "id": "dehydration",
+    "name": "Dehydration / Heat Exhaustion",
+    "aliases": [
+      "dehydration",
+      "heat exhaustion",
+      "heatstroke",
+      "heat stroke",
+      "sunstroke"
+    ],
+    "category": "General",
+    "urgency": "self-care",
+    "specialist": "General Physician",
+    "summary": "The body loses more fluid than it takes in, often in hot weather or after vomiting/diarrhoea, causing thirst, dizziness and dark urine.",
+    "symptoms": [
+      "dehydration_signs",
+      "increased_thirst",
+      "dizziness",
+      "headache",
+      "fatigue",
+      "sweating",
+      "nausea",
+      "fainting"
+    ],
+    "self_care": [
+      "Move to a cool, shaded place and lie down with legs raised.",
+      "Sip water or ORS slowly and steadily.",
+      "Cool the skin with a damp cloth or fan."
+    ],
+    "medicines": [
+      "ORS (oral rehydration solution) is the best treatment."
+    ],
+    "see_doctor": [
+      "No improvement after 30 minutes of rest and fluids.",
+      "Confusion, very high body temperature, hot dry skin, seizures or fainting — this may be heatstroke: call 112."
+    ],
+    "prevention": [
+      "Drink water regularly, especially in hot weather and during exercise.",
+      "Avoid the midday sun and wear light, loose clothing.",
+      "Limit alcohol and caffeine in hot weather."
+    ],
+    "prevalence": "common"
+  }
+]

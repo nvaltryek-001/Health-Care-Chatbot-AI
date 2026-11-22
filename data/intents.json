@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "hii", "hey there", "good morning", "good afternoon", "good evening", "good day", "greetings", "what's up", "how is it going", "namaste", "hola", "yo", "hello medbot", "hi bot"],
+      "responses": ["Hello! I'm MedBot, your health assistant. Tell me what symptoms you're having, or ask me about a condition.", "Hi there! How are you feeling today? You can describe your symptoms, e.g. \"I have a fever and a headache\".", "Hey! I'm here to help. What symptoms are bothering you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "see ya", "cya", "have a good day", "talk to you later", "i am leaving", "good night", "ok bye", "exit", "quit"],
+      "responses": ["Take care and get well soon! Remember to see a doctor if symptoms get worse.", "Goodbye! Stay healthy and drink plenty of water.", "Bye! Wishing you good health."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thank you so much", "thanks a lot", "that's helpful", "that helped", "awesome", "great", "cool thanks", "nice", "ok thanks", "much appreciated", "thx"],
+      "responses": ["You're welcome! Is there anything else I can help with?", "Happy to help! Feel free to ask about any other symptoms.", "Anytime! Take care of yourself."]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["how are you", "how are you doing", "how do you do", "are you ok", "how's your day", "how have you been"],
+      "responses": ["I'm doing great, thanks for asking! More importantly — how are you feeling?", "All systems healthy! How can I help you today?"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "what should i call you", "what's your name", "who are you", "can you tell me your name", "your name", "introduce yourself"],
+      "responses": ["I'm MedBot, an AI health assistant. I can check your symptoms, explain common conditions and estimate heart-disease risk.", "You can call me MedBot — your friendly medical information assistant."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you", "what is your age", "age", "when were you born", "how old"],
+      "responses": ["I get reborn every time my models are retrained!", "I'm as young as my last training run."]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["who made you", "who created you", "who built you", "who is your developer", "who developed you", "who is your creator"],
+      "responses": ["I was built as an open-source project with Python, Flask and scikit-learn. Check the GitHub repo for details!"]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": ["what can you do", "help", "how can you help me", "what do you do", "what are your features", "how does this work", "how to use", "what can i ask", "menu", "options", "guide me"],
+      "responses": ["Here's what I can do:\n• Symptom check — describe how you feel (e.g. \"fever, body ache and chills\") and I'll suggest possible conditions.\n• Condition info — ask \"how to prevent dengue\" or \"what is asthma\".\n• Heart risk — open the Heart Risk page for an ML-based estimate.\n• Find care — ask \"which doctor should I see\".\nI'm not a doctor, so always confirm with a healthcare professional."]
+    },
+    {
+      "tag": "feeling_unwell",
+      "patterns": ["i am not feeling well", "i feel sick", "i am sick", "i'm unwell", "i feel bad", "something is wrong with me", "i am ill", "i don't feel good", "i need help", "i have a problem", "health problem", "i am feeling unwell"],
+      "responses": ["I'm sorry you're not feeling well. Can you tell me your symptoms? For example: fever, cough, headache, stomach pain, dizziness…", "Let's figure this out together. What symptoms are you experiencing, and for how long?"]
+    },
+    {
+      "tag": "consultation",
+      "patterns": ["i want to consult a doctor", "find a doctor", "doctor consultation", "book appointment", "which doctor should i see", "i need a doctor", "online doctor", "contact doctor", "nearby hospital", "where can i get treatment", "hospital near me", "talk to a doctor"],
+      "responses": ["You can consult a doctor online through trusted telemedicine services such as eSanjeevani (free, Govt. of India — esanjeevani.mohfw.gov.in), Practo, Apollo 24|7 or Tata 1mg. For anything urgent, visit the nearest hospital or call 112. Tell me your symptoms and I can suggest which specialist to see."]
+    },
+    {
+      "tag": "heart_check",
+      "patterns": ["check my heart", "heart risk", "heart disease risk", "am i at risk of heart disease", "heart health check", "predict heart disease", "heart test", "cardiac risk", "is my heart healthy"],
+      "responses": ["I can estimate your heart-disease risk with a machine-learning model trained on the UCI heart-disease dataset. Open the Heart Risk page from the menu and enter your details (age, BP, cholesterol, etc.)."]
+    },
+    {
+      "tag": "emergency_numbers",
+      "patterns": ["emergency number", "ambulance number", "helpline", "emergency contact", "call ambulance", "what is the ambulance number", "emergency helpline"],
+      "responses": ["Emergency numbers (India): 112 (all emergencies), 108 (ambulance), 102 (maternal & child ambulance), Tele-MANAS mental-health helpline 14416. Outside India, call your local emergency number."]
+    },
+    {
+      "tag": "reset",
+      "patterns": ["start over", "reset", "clear", "restart", "new chat", "clear symptoms", "forget my symptoms", "start again", "begin again"],
+      "responses": ["Okay, I've cleared your symptoms. Let's start fresh — how are you feeling?"]
+    },
+    {
+      "tag": "affirm",
+      "patterns": ["yes", "yeah", "yep", "sure", "ok", "okay", "alright", "correct", "right"],
+      "responses": ["Great! Tell me more about your symptoms, or ask me about any condition.", "Okay! What else are you experiencing?"]
+    },
+    {
+      "tag": "deny",
+      "patterns": ["no", "nope", "nah", "not really", "none", "nothing else", "that's all", "no other symptoms"],
+      "responses": ["Alright. Based on what you've told me, take a look at the suggestions above. If you're worried, please consult a doctor.", "Okay! Let me know if anything else comes up."]
+    },
+    {
+      "tag": "diet",
+      "patterns": ["healthy diet", "what should i eat", "diet tips", "nutrition advice", "healthy food", "balanced diet", "how to eat healthy"],
+      "responses": ["General healthy-eating tips: fill half your plate with vegetables and fruit, choose whole grains, include protein (dal, beans, eggs, fish, lean meat), limit sugar, salt and fried food, and drink 2–3 litres of water a day. For specific needs, consult a dietitian."]
+    },
+    {
+      "tag": "exercise",
+      "patterns": ["exercise tips", "how much exercise", "fitness advice", "how to stay fit", "workout", "physical activity"],
+      "responses": ["Adults should aim for at least 150 minutes of moderate activity per week (e.g. brisk walking 30 min × 5 days) plus muscle-strengthening twice a week. Start slowly and check with a doctor if you have a heart condition."]
+    },
+    {
+      "tag": "water",
+      "patterns": ["how much water should i drink", "water intake", "daily water", "hydration tips", "how to stay hydrated"],
+      "responses": ["Most adults need about 2–3 litres of fluids a day — more in hot weather or when exercising. Pale yellow urine is a good sign you're well hydrated."]
+    },
+    {
+      "tag": "sleep",
+      "patterns": ["how much sleep do i need", "sleep tips", "how to sleep better", "hours of sleep"],
+      "responses": ["Adults need 7–9 hours of sleep. Keep a regular schedule, avoid screens an hour before bed, limit caffeine after 2 pm, and keep your room dark and cool."]
+    },
+    {
+      "tag": "disclaimer",
+      "patterns": ["are you a doctor", "is this medical advice", "can i trust you", "are you accurate", "how accurate are you", "are you real doctor"],
+      "responses": ["I'm not a doctor. I provide general health information using a curated knowledge base and machine-learning models. My suggestions are not a diagnosis — please consult a qualified healthcare professional for medical advice."]
+    }
+  ]
+}
