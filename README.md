@@ -176,10 +176,9 @@ curl -s localhost:5000/api/chat -H 'Content-Type: application/json' \
 * The heart model was trained on 302 patients from a single hospital (1988). It shows how ML works on clinical data and is not a validated clinical tool.
 * Medicine guidance is limited to general over-the-counter advice ("follow the label"). Prescription treatment is always referred to a doctor.
 
-## 🙏 Credits
+## 📊 Dataset
 
-* Rebuilt from the original *Health-Care-Chatbot* by **Amber Kakkar** (MIT License). The original Tkinter + Keras version is preserved in this repository's git history.
-* Heart-disease data: Detrano et al. (1989), UCI Machine Learning Repository: *Heart Disease (Cleveland)*.
+Heart-disease data: UCI Machine Learning Repository, *Heart Disease (Cleveland)*, licensed CC BY 4.0.
 
 ## 📄 License
 
