@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}Heart Risk{% endblock %}
+{% block content %}
+<div class="page-head">
+  <h1>Heart-disease risk check</h1>
+  <p>Enter clinical measurements to estimate the probability of coronary heart disease. The model is a logistic
+     regression trained on the UCI Cleveland heart-disease dataset (302 patients). Values from a recent check-up,
+     ECG or treadmill test work best.</p>
+</div>
+
+<div class="heart-layout">
+  <form class="card" id="heart-form" novalidate>
+    <div class="form-grid">
+      {% for name, f in features.items() %}
+      <div class="field" data-field="{{ name }}">
+        <label for="{{ name }}">{{ f.label }}{% if f.unit %} <span class="unit">({{ f.unit }})</span>{% endif %}</label>
+        {% if f.options %}
+        <select id="{{ name }}" name="{{ name }}">
+          {% for value, text in f.options.items() %}
+          <option value="{{ value }}" {{ 'selected' if value == f.default }}>{{ text }}</option>
+          {% endfor %}
+        </select>
+        {% else %}
+        <input id="{{ name }}" name="{{ name }}" type="number" inputmode="decimal" min="{{ f.min }}" max="{{ f.max }}"
+               step="{{ f.step or 1 }}" value="{{ f.default }}" required>
+        {% endif %}
+        {% if f.help %}<div class="help">{{ f.help }}</div>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    <div class="form-actions">
+      <button class="btn" type="submit" id="predict-btn">Estimate my risk</button>
+      <span class="spacer"></span>
+      <span class="small muted">Try a sample:</span>
+      <button class="btn ghost sm" type="button" data-preset="low">Low-risk</button>
+      <button class="btn ghost sm" type="button" data-preset="high">High-risk</button>
+    </div>
+  </form>
+
+  <section class="card result" id="result" aria-live="polite">
+    <div class="result-empty" id="result-empty">
+      <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#0b8f80" stroke-width="1.6"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/><path d="M3 12h4l2-3 3 6 2-3h7"/></svg>
+      <p>Fill in the form and press <b>Estimate my risk</b> to see your result.</p>
+    </div>
+    <div id="result-body" hidden>
+      <svg class="gauge" id="gauge" width="240" height="140" viewBox="0 0 240 140" role="img" aria-label="Risk gauge">
+        <path d="M20 125 A100 100 0 0 1 220 125" fill="none" stroke="#e1e8e6" stroke-width="18" stroke-linecap="round"/>
+        <path id="gauge-arc" d="M20 125 A100 100 0 0 1 220 125" fill="none" stroke="#0b8f80" stroke-width="18" stroke-linecap="round" pathLength="100" stroke-dasharray="0 100"/>
+      </svg>
+      <div class="risk-level">
+        <div class="pct" id="risk-pct">0%</div>
+        <div class="lvl" id="risk-lvl">—</div>
+      </div>
+      <p class="small muted" id="risk-text" style="text-align:center;margin-top:.5rem"></p>
+      <h3 style="margin-top:1rem">What influenced this estimate</h3>
+      <ul class="factors" id="factors"></ul>
+      <p class="disclaimer">This is a statistical estimate from a small research dataset, not a diagnosis. Note: in this
+        dataset, patients without chest-pain symptoms were often referred for other reasons, so "No chest pain" can
+        raise the score. Always discuss heart health with a doctor.</p>
+    </div>
+  </section>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/heart.js') }}?v={{ app_version }}"></script>
+{% endblock %}

@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}Insights{% endblock %}
+{% block content %}
+<div class="page-head">
+  <h1>Dataset &amp; model insights</h1>
+  <p>What the heart-disease dataset looks like, how well the risk model performs on unseen patients, and what is
+     inside MedBot's symptom knowledge base.</p>
+</div>
+
+<div class="kpis" id="kpis">
+  <div class="card kpi"><div class="label">Patients in dataset</div><div class="value" id="k-total">–</div><div class="sub">UCI Cleveland</div></div>
+  <div class="card kpi"><div class="label">With heart disease</div><div class="value" id="k-rate">–</div><div class="sub" id="k-rate-sub"></div></div>
+  <div class="card kpi"><div class="label">Model accuracy</div><div class="value" id="k-acc">–</div><div class="sub" id="k-acc-sub"></div></div>
+  <div class="card kpi"><div class="label">ROC-AUC</div><div class="value" id="k-auc">–</div><div class="sub">1.0 = perfect ranking</div></div>
+</div>
+
+<div class="charts">
+  <section class="card chart-card">
+    <h2>Heart-disease rate by age group</h2>
+    <div class="sub">% of patients in each group diagnosed with disease</div>
+    <div class="hbars" id="c-age"></div>
+  </section>
+  <section class="card chart-card">
+    <h2>Heart-disease rate by chest-pain type</h2>
+    <div class="sub">Asymptomatic patients had the highest rate in this referral cohort</div>
+    <div class="hbars" id="c-cp"></div>
+  </section>
+  <section class="card chart-card">
+    <h2>Heart-disease rate by sex &amp; exercise angina</h2>
+    <div class="sub">% with disease</div>
+    <div class="hbars" id="c-sex"></div>
+  </section>
+  <section class="card chart-card">
+    <h2>Healthy vs. disease: average measurements</h2>
+    <div class="sub">Mean value per group</div>
+    <table class="data" id="t-compare">
+      <thead><tr><th>Measurement</th><th class="num">Healthy</th><th class="num">Disease</th><th class="num">Difference</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+  <section class="card chart-card">
+    <h2>Model evaluation</h2>
+    <div class="sub" id="eval-sub">Hold-out test set</div>
+    <div style="display:flex;gap:1.5rem;flex-wrap:wrap;align-items:flex-start">
+      <div class="cm" id="cm"></div>
+      <table class="data" style="flex:1;min-width:220px" id="t-models">
+        <thead><tr><th>Model (5-fold CV)</th><th class="num">AUC</th><th class="num">Accuracy</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+  <section class="card chart-card">
+    <h2>Strongest risk factors in the model</h2>
+    <div class="sub">Logistic-regression weight (standardised). Positive raises risk.</div>
+    <div class="legend"><span><i style="background:var(--series-2)"></i>Raises risk</span><span><i style="background:var(--series-1)"></i>Lowers risk</span></div>
+    <div class="hbars" id="c-coef"></div>
+  </section>
+  <section class="card chart-card" style="grid-column:1/-1">
+    <h2>Symptom knowledge base</h2>
+    <div class="sub" id="kb-sub"></div>
+    <div class="hbars" id="c-kb"></div>
+  </section>
+</div>
+<div class="tooltip" id="tooltip"></div>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/insights.js') }}?v={{ app_version }}"></script>
+{% endblock %}

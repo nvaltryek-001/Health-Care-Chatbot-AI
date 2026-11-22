@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}MedBot{% endblock %} · AI Health-Care Chatbot</title>
+  <meta name="description" content="MedBot: an AI health-care chatbot with a symptom checker, condition guide and heart-disease risk predictor.">
+  <link rel="icon" href="{{ url_for('static', filename='img/favicon.svg') }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v={{ app_version }}">
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="{{ url_for('pages.chat_page') }}">
+        <span class="brand-mark">
+          <svg width="20" height="20" viewBox="0 0 32 32" aria-hidden="true"><path d="M3 17h6l2.5-6 4 11 3-8 1.5 3H29" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        MedBot<small>AI Health Assistant</small>
+      </a>
+      <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <svg width="24" height="24" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <nav class="nav-links">
+        <a href="{{ url_for('pages.chat_page') }}" class="{{ 'active' if active == 'chat' }}">Chat</a>
+        <a href="{{ url_for('pages.heart_page') }}" class="{{ 'active' if active == 'heart' }}">Heart Risk</a>
+        <a href="{{ url_for('pages.conditions_page') }}" class="{{ 'active' if active == 'conditions' }}">Conditions</a>
+        <a href="{{ url_for('pages.insights_page') }}" class="{{ 'active' if active == 'insights' }}">Insights</a>
+        <a href="{{ url_for('pages.about_page') }}" class="{{ 'active' if active == 'about' }}">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>{% block content %}{% endblock %}</main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span><b>Not medical advice.</b> MedBot gives general information only. In an emergency call 112.</span>
+      <span>MedBot v{{ app_version }} · Flask + scikit-learn</span>
+    </div>
+  </footer>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

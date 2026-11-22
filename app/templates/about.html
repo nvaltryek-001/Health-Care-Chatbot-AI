@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %}
+{% block content %}
+<article class="card prose">
+  <h1>About MedBot</h1>
+  <p>MedBot is an open-source AI health-care chatbot. It helps people understand their symptoms, learn about common
+     conditions and estimate heart-disease risk — and tells them clearly when to see a doctor.</p>
+
+  <h2>How it works</h2>
+  <div class="arch">
+    <div><b>1 · Safety check</b>Emergency and crisis phrases are detected first and answered with helpline numbers.</div>
+    <div><b>2 · Symptom extraction</b>Hundreds of symptom phrases are matched, with negation (“no fever”) and typo tolerance.</div>
+    <div><b>3 · Condition ranking</b>An IDF-weighted overlap score compares your symptoms with 30 condition profiles.</div>
+    <div><b>4 · Intent model</b>A TF-IDF + logistic-regression classifier handles greetings, help and other small talk.</div>
+  </div>
+  <p>The <a href="{{ url_for('pages.heart_page') }}">Heart Risk</a> page uses a separate logistic-regression model trained on
+     the UCI Cleveland heart-disease dataset. You can see its accuracy and the dataset on the
+     <a href="{{ url_for('pages.insights_page') }}">Insights</a> page.</p>
+
+  <h2>Important limitations</h2>
+  <ul>
+    <li>MedBot is <b>not a doctor</b> and does not provide a diagnosis. It cannot examine you or run tests.</li>
+    <li>The knowledge base covers common conditions only. Rare or serious illnesses may present differently.</li>
+    <li>The heart model was trained on 302 patients from one hospital in the 1980s and may not generalise to you.</li>
+    <li>Never start, stop or change prescribed medicine based on this app.</li>
+  </ul>
+
+  <h2>In an emergency</h2>
+  <p>Call <b>112</b> (India), <b>108</b> for an ambulance, or your local emergency number. For mental-health support in
+     India, call <b>Tele-MANAS 14416</b> (free, 24×7).</p>
+
+  <h2>Credits</h2>
+  <p>Rebuilt from the original <i>Health-Care-Chatbot</i> by Amber Kakkar (MIT License). The heart-disease data comes from
+     the UCI Machine Learning Repository (Detrano et al., 1989).</p>
+</article>
+{% endblock %}

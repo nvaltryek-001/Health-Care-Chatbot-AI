@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}Conditions{% endblock %}
+{% block content %}
+<div class="page-head">
+  <h1>Condition guide</h1>
+  <p>The {{ conditions|length }} conditions MedBot knows about — symptoms, self-care, when to see a doctor and prevention.</p>
+</div>
+
+<div class="toolbar">
+  <input id="q" type="search" placeholder="Search conditions or symptoms…" aria-label="Search">
+  <select id="cat" aria-label="Category">
+    <option value="">All categories</option>
+    {% for c in categories %}<option>{{ c }}</option>{% endfor %}
+  </select>
+</div>
+
+<div class="cond-grid" id="grid">
+  {% set labels_by_id = labels %}
+  {% for c in conditions %}
+  {% set labels = labels_by_id[c.id] %}
+  <article class="cond" data-category="{{ c.category }}" data-search="{{ (c.name ~ ' ' ~ c.aliases|join(' ') ~ ' ' ~ labels|join(' '))|lower }}">
+    <div class="cond-top">
+      <h3>{{ c.name }}</h3>
+      <span class="badge">{{ c.category }}</span>
+      <span class="badge {{ c.urgency }}">{{ {'self-care':'Self-care usually OK','see-doctor':'See a doctor','urgent':'Urgent'}[c.urgency] }}</span>
+    </div>
+    <p>{{ c.summary }}</p>
+    <div class="symptom-pills">{% for l in labels %}<span>{{ l }}</span>{% endfor %}</div>
+    <div class="small muted">Specialist: {{ c.specialist }}</div>
+    <details class="more">
+      <summary>Details</summary>
+      <div class="sections">
+        <div class="section"><h4>Self-care</h4><ul>{% for i in c.self_care %}<li>{{ i }}</li>{% endfor %}</ul></div>
+        <div class="section"><h4>Medicines</h4><ul>{% for i in c.medicines %}<li>{{ i }}</li>{% endfor %}</ul></div>
+        <div class="section"><h4>When to see a doctor</h4><ul>{% for i in c.see_doctor %}<li>{{ i }}</li>{% endfor %}</ul></div>
+        <div class="section"><h4>Prevention</h4><ul>{% for i in c.prevention %}<li>{{ i }}</li>{% endfor %}</ul></div>
+      </div>
+    </details>
+  </article>
+  {% endfor %}
+</div>
+<p class="empty" id="none" hidden>No conditions match your search.</p>
+{% endblock %}
+{% block scripts %}
+<script>
+  (() => {
+    const q = document.getElementById("q"), cat = document.getElementById("cat");
+    const cards = [...document.querySelectorAll("#grid .cond")];
+    function filter() {
+      const term = q.value.trim().toLowerCase();
+      let shown = 0;
+      for (const c of cards) {
+        const ok = (!term || c.dataset.search.includes(term)) && (!cat.value || c.dataset.category === cat.value);
+        c.hidden = !ok; if (ok) shown++;
+      }
+      document.getElementById("none").hidden = shown > 0;
+    }
+    q.addEventListener("input", filter); cat.addEventListener("change", filter);
+  })();
+</script>
+{% endblock %}
